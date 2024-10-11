@@ -53,6 +53,7 @@ app.use(express.json());
 // This will serve the React build when we deploy our app
 app.use(express.static("react-frontend/dist"));
 
+
 // AUTH0 Enforce on all endpoints
 //app.use(jwtCheck);
 
